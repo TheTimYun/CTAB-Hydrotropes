@@ -1,0 +1,13 @@
+{"time":"2025-04-17T22:05:23.9012041+03:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-04-17T22:05:23.9012041+03:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\Timur\\Cheminformatics\\Practice\\CTAB-hydrotropes\\NNs\\Graph NNs\\wandb\\run-20250417_220521-1xv90ern\\logs\\debug-core.log"}
+{"time":"2025-04-17T22:05:24.0226489+03:00","level":"INFO","msg":"created new stream","id":"1xv90ern"}
+{"time":"2025-04-17T22:05:24.0226489+03:00","level":"INFO","msg":"stream: started","id":"1xv90ern"}
+{"time":"2025-04-17T22:05:24.0226489+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"1xv90ern"}
+{"time":"2025-04-17T22:05:24.0226489+03:00","level":"INFO","msg":"handler: started","stream_id":"1xv90ern"}
+{"time":"2025-04-17T22:05:24.0226489+03:00","level":"INFO","msg":"sender: started","stream_id":"1xv90ern"}
+{"time":"2025-04-17T22:05:24.3670245+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-17T22:05:24.6256577+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-17T22:05:27.8919909+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-17T22:16:38.8926987+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-17T22:36:10.6633133+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-04-17T23:01:55.1156044+03:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/timyun/CTAB-hydrotopes-graph_NN/1xv90ern/file_stream"}

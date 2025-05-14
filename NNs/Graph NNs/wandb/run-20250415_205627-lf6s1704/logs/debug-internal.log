@@ -1,0 +1,20 @@
+{"time":"2025-04-15T20:56:30.8467016+03:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-04-15T20:56:30.8467016+03:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\Timur\\Cheminformatics\\Practice\\CTAB-hydrotropes\\NNs\\Graph NNs\\wandb\\run-20250415_205627-lf6s1704\\logs\\debug-core.log"}
+{"time":"2025-04-15T20:56:30.9704835+03:00","level":"INFO","msg":"created new stream","id":"lf6s1704"}
+{"time":"2025-04-15T20:56:30.9711023+03:00","level":"INFO","msg":"stream: started","id":"lf6s1704"}
+{"time":"2025-04-15T20:56:30.9711023+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"lf6s1704"}
+{"time":"2025-04-15T20:56:30.9711023+03:00","level":"INFO","msg":"handler: started","stream_id":"lf6s1704"}
+{"time":"2025-04-15T20:56:30.9711023+03:00","level":"INFO","msg":"sender: started","stream_id":"lf6s1704"}
+{"time":"2025-04-15T20:56:31.3491895+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-15T21:02:43.9028388+03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-15T21:02:43.9033607+03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-15T21:02:44.289874+03:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2025-04-15T21:02:44.2903967+03:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2025-04-15T21:02:44.2904237+03:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2025-04-15T21:02:44.9129016+03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.5873864},{"desc":"uploading config.yaml","runtime_seconds":0.4127623},{"desc":"uploading output.log","runtime_seconds":0.4127269}],"total_operations":3}}
+{"time":"2025-04-15T21:02:46.2188991+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-15T21:02:47.523293+03:00","level":"INFO","msg":"stream: closing","id":"lf6s1704"}
+{"time":"2025-04-15T21:02:47.523293+03:00","level":"INFO","msg":"handler: closed","stream_id":"lf6s1704"}
+{"time":"2025-04-15T21:02:47.523293+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"lf6s1704"}
+{"time":"2025-04-15T21:02:47.5252903+03:00","level":"INFO","msg":"sender: closed","stream_id":"lf6s1704"}
+{"time":"2025-04-15T21:02:47.5252903+03:00","level":"INFO","msg":"stream: closed","id":"lf6s1704"}

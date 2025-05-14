@@ -1,0 +1,20 @@
+{"time":"2025-04-21T22:18:03.3526712+03:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-04-21T22:18:03.3531832+03:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\Timur\\Cheminformatics\\Practice\\CTAB-hydrotropes\\NNs\\Graph NNs\\wandb\\run-20250421_221800-tfbg3753\\logs\\debug-core.log"}
+{"time":"2025-04-21T22:18:03.4722701+03:00","level":"INFO","msg":"created new stream","id":"tfbg3753"}
+{"time":"2025-04-21T22:18:03.4722701+03:00","level":"INFO","msg":"stream: started","id":"tfbg3753"}
+{"time":"2025-04-21T22:18:03.4724725+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"tfbg3753"}
+{"time":"2025-04-21T22:18:03.4724725+03:00","level":"INFO","msg":"sender: started","stream_id":"tfbg3753"}
+{"time":"2025-04-21T22:18:03.4724725+03:00","level":"INFO","msg":"handler: started","stream_id":"tfbg3753"}
+{"time":"2025-04-21T22:18:03.8001604+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-21T22:23:50.8838734+03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-21T22:23:50.8838734+03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-21T22:23:51.2531142+03:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2025-04-21T22:23:51.2531142+03:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2025-04-21T22:23:51.2531142+03:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2025-04-21T22:23:51.8916338+03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.4283658,"progress":"927B/927B"},{"desc":"uploading output.log","runtime_seconds":0.4283658,"progress":"7.4KB/7.4KB"}],"total_operations":2}}
+{"time":"2025-04-21T22:23:52.377629+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-21T22:23:53.6634654+03:00","level":"INFO","msg":"stream: closing","id":"tfbg3753"}
+{"time":"2025-04-21T22:23:53.6634654+03:00","level":"INFO","msg":"handler: closed","stream_id":"tfbg3753"}
+{"time":"2025-04-21T22:23:53.6634654+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"tfbg3753"}
+{"time":"2025-04-21T22:23:53.6634654+03:00","level":"INFO","msg":"sender: closed","stream_id":"tfbg3753"}
+{"time":"2025-04-21T22:23:53.6634654+03:00","level":"INFO","msg":"stream: closed","id":"tfbg3753"}

@@ -1,0 +1,3 @@
+Ths folder contains files and notebooksm which are dedicated to implement Graph Neural Networks (GNN) to predict is the system is geleous. We have to folders hre:
+1. **Fully connected NNs** - deals with NNs, which are actually a combination of several linear layers, that takes descriptiors as a table and transofrms it into probability;
+2. **Graph NNs** - more interesting type of neural networks, that get descriptors by itseld. It only needs SMILES, concantration and temperature. Actualy, it also performs better than fully-conncected NNs :)

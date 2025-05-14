@@ -1,0 +1,11 @@
+{"time":"2025-04-21T22:41:14.1389102+03:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-04-21T22:41:14.1389102+03:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\Timur\\Cheminformatics\\Practice\\CTAB-hydrotropes\\NNs\\Graph NNs\\wandb\\run-20250421_224111-g2nmpnsc\\logs\\debug-core.log"}
+{"time":"2025-04-21T22:41:14.2612284+03:00","level":"INFO","msg":"created new stream","id":"g2nmpnsc"}
+{"time":"2025-04-21T22:41:14.2612284+03:00","level":"INFO","msg":"stream: started","id":"g2nmpnsc"}
+{"time":"2025-04-21T22:41:14.2612284+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"g2nmpnsc"}
+{"time":"2025-04-21T22:41:14.2617476+03:00","level":"INFO","msg":"handler: started","stream_id":"g2nmpnsc"}
+{"time":"2025-04-21T22:41:14.2617963+03:00","level":"INFO","msg":"sender: started","stream_id":"g2nmpnsc"}
+{"time":"2025-04-21T22:41:14.900414+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-21T22:41:15.1575171+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-21T22:41:22.6493562+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-21T22:52:06.5141201+03:00","level":"INFO","msg":"Pausing system monitor"}

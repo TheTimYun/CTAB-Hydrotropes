@@ -1,0 +1,20 @@
+{"time":"2025-04-15T19:17:35.7528833+03:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-04-15T19:17:35.7528833+03:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\Timur\\Cheminformatics\\Practice\\CTAB-hydrotropes\\NNs\\Graph NNs\\wandb\\run-20250415_191726-0awscig9\\logs\\debug-core.log"}
+{"time":"2025-04-15T19:17:35.8731412+03:00","level":"INFO","msg":"created new stream","id":"0awscig9"}
+{"time":"2025-04-15T19:17:35.8731412+03:00","level":"INFO","msg":"stream: started","id":"0awscig9"}
+{"time":"2025-04-15T19:17:35.8731412+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"0awscig9"}
+{"time":"2025-04-15T19:17:35.8731412+03:00","level":"INFO","msg":"handler: started","stream_id":"0awscig9"}
+{"time":"2025-04-15T19:17:35.8731412+03:00","level":"INFO","msg":"sender: started","stream_id":"0awscig9"}
+{"time":"2025-04-15T19:17:36.2277586+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-15T19:21:33.1147831+03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-15T19:21:33.1155141+03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-15T19:21:33.5059972+03:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2025-04-15T19:21:33.5059972+03:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2025-04-15T19:21:33.5059972+03:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2025-04-15T19:21:34.1210393+03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.3629212,"progress":"893B/893B"},{"desc":"uploading output.log","runtime_seconds":0.3629212,"progress":"2.2KB/2.2KB"}],"total_operations":2}}
+{"time":"2025-04-15T19:21:34.6484315+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-15T19:21:38.3430804+03:00","level":"INFO","msg":"stream: closing","id":"0awscig9"}
+{"time":"2025-04-15T19:21:38.3430804+03:00","level":"INFO","msg":"handler: closed","stream_id":"0awscig9"}
+{"time":"2025-04-15T19:21:38.3430804+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"0awscig9"}
+{"time":"2025-04-15T19:21:38.3430804+03:00","level":"INFO","msg":"sender: closed","stream_id":"0awscig9"}
+{"time":"2025-04-15T19:21:38.3430804+03:00","level":"INFO","msg":"stream: closed","id":"0awscig9"}
