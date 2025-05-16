@@ -1,1 +1,0 @@
-{"train_recall":0.8153846263885498,"train_f1":0.807619035243988,"train_precision":0.800000011920929,"test_precision":0.7924528121948242,"test_accuracy":0.7685950398445129,"_step":59,"train_accuracy":0.7913222908973694,"test_recall":0.7118644118309021,"_timestamp":1.744734000866518e+09,"test_f1":0.75,"_wandb":{"runtime":237},"_runtime":145.1132159}

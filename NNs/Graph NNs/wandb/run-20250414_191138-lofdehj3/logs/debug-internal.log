@@ -1,8 +1,0 @@
-{"time":"2025-04-14T19:11:40.5295678+03:00","level":"INFO","msg":"using version","core version":"0.18.7"}
-{"time":"2025-04-14T19:11:40.5295678+03:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\Timur\\Cheminformatics\\Practice\\CTAB-hydrotropes\\NNs\\Graph NNs\\wandb\\run-20250414_191138-lofdehj3\\logs\\debug-core.log"}
-{"time":"2025-04-14T19:11:40.6463526+03:00","level":"INFO","msg":"created new stream","id":"lofdehj3"}
-{"time":"2025-04-14T19:11:40.6463526+03:00","level":"INFO","msg":"stream: started","id":"lofdehj3"}
-{"time":"2025-04-14T19:11:40.6463526+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"lofdehj3"}
-{"time":"2025-04-14T19:11:40.6463526+03:00","level":"INFO","msg":"sender: started","stream_id":"lofdehj3"}
-{"time":"2025-04-14T19:11:40.6468912+03:00","level":"INFO","msg":"handler: started","stream_id":"lofdehj3"}
-{"time":"2025-04-14T19:11:40.9842179+03:00","level":"INFO","msg":"Starting system monitor"}
