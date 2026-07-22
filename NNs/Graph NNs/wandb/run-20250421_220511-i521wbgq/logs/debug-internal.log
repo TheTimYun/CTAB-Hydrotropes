@@ -1,0 +1,20 @@
+{"time":"2025-04-21T22:05:14.8005701+03:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-04-21T22:05:14.8005701+03:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\Timur\\Cheminformatics\\Practice\\CTAB-hydrotropes\\NNs\\Graph NNs\\wandb\\run-20250421_220511-i521wbgq\\logs\\debug-core.log"}
+{"time":"2025-04-21T22:05:14.9290302+03:00","level":"INFO","msg":"created new stream","id":"i521wbgq"}
+{"time":"2025-04-21T22:05:14.9290302+03:00","level":"INFO","msg":"stream: started","id":"i521wbgq"}
+{"time":"2025-04-21T22:05:14.9290302+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"i521wbgq"}
+{"time":"2025-04-21T22:05:14.9295691+03:00","level":"INFO","msg":"handler: started","stream_id":"i521wbgq"}
+{"time":"2025-04-21T22:05:14.929615+03:00","level":"INFO","msg":"sender: started","stream_id":"i521wbgq"}
+{"time":"2025-04-21T22:05:15.2865333+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-21T22:12:13.9201914+03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-21T22:12:13.9209079+03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-21T22:12:14.3023634+03:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2025-04-21T22:12:14.3023914+03:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2025-04-21T22:12:14.3023914+03:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2025-04-21T22:12:14.9270832+03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.4066016,"progress":"7.4KB/7.4KB"}],"total_operations":1}}
+{"time":"2025-04-21T22:12:15.31915+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-21T22:12:16.5891106+03:00","level":"INFO","msg":"stream: closing","id":"i521wbgq"}
+{"time":"2025-04-21T22:12:16.5891106+03:00","level":"INFO","msg":"handler: closed","stream_id":"i521wbgq"}
+{"time":"2025-04-21T22:12:16.5891106+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"i521wbgq"}
+{"time":"2025-04-21T22:12:16.5891106+03:00","level":"INFO","msg":"sender: closed","stream_id":"i521wbgq"}
+{"time":"2025-04-21T22:12:16.5891106+03:00","level":"INFO","msg":"stream: closed","id":"i521wbgq"}

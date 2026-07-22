@@ -1,0 +1,7 @@
+{"time":"2025-04-15T21:17:40.4939249+03:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-04-15T21:17:40.4939249+03:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\Timur\\Cheminformatics\\Practice\\CTAB-hydrotropes\\NNs\\Graph NNs\\wandb\\run-20250415_211740-llsd0nlf\\logs\\debug-core.log"}
+{"time":"2025-04-15T21:17:40.610223+03:00","level":"INFO","msg":"created new stream","id":"llsd0nlf"}
+{"time":"2025-04-15T21:17:40.610223+03:00","level":"INFO","msg":"stream: started","id":"llsd0nlf"}
+{"time":"2025-04-15T21:17:40.610223+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"llsd0nlf"}
+{"time":"2025-04-15T21:17:40.610737+03:00","level":"INFO","msg":"handler: started","stream_id":"llsd0nlf"}
+{"time":"2025-04-15T21:17:40.610737+03:00","level":"INFO","msg":"sender: started","stream_id":"llsd0nlf"}

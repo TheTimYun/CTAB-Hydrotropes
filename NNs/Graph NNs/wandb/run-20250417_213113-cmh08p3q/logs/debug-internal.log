@@ -1,0 +1,24 @@
+{"time":"2025-04-17T21:31:16.314153+03:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-04-17T21:31:16.314153+03:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\Timur\\Cheminformatics\\Practice\\CTAB-hydrotropes\\NNs\\Graph NNs\\wandb\\run-20250417_213113-cmh08p3q\\logs\\debug-core.log"}
+{"time":"2025-04-17T21:31:16.4295985+03:00","level":"INFO","msg":"created new stream","id":"cmh08p3q"}
+{"time":"2025-04-17T21:31:16.4295985+03:00","level":"INFO","msg":"stream: started","id":"cmh08p3q"}
+{"time":"2025-04-17T21:31:16.4295985+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"cmh08p3q"}
+{"time":"2025-04-17T21:31:16.4295985+03:00","level":"INFO","msg":"handler: started","stream_id":"cmh08p3q"}
+{"time":"2025-04-17T21:31:16.4295985+03:00","level":"INFO","msg":"sender: started","stream_id":"cmh08p3q"}
+{"time":"2025-04-17T21:31:16.8206863+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-17T21:31:17.0858411+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-17T21:31:19.8585684+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-17T21:36:56.5573171+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-17T21:37:23.3204912+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-17T21:37:23.3671687+03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-17T21:37:23.3671687+03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-17T21:37:23.7682553+03:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2025-04-17T21:37:23.7682553+03:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2025-04-17T21:37:23.7682553+03:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2025-04-17T21:37:24.3765783+03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.3974028,"progress":"883B/883B"},{"desc":"uploading output.log","runtime_seconds":0.3974028,"progress":"7.4KB/7.4KB"}],"total_operations":2}}
+{"time":"2025-04-17T21:37:24.8547646+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-17T21:37:26.0870666+03:00","level":"INFO","msg":"stream: closing","id":"cmh08p3q"}
+{"time":"2025-04-17T21:37:26.0870666+03:00","level":"INFO","msg":"handler: closed","stream_id":"cmh08p3q"}
+{"time":"2025-04-17T21:37:26.0870666+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"cmh08p3q"}
+{"time":"2025-04-17T21:37:26.0870666+03:00","level":"INFO","msg":"sender: closed","stream_id":"cmh08p3q"}
+{"time":"2025-04-17T21:37:26.0870666+03:00","level":"INFO","msg":"stream: closed","id":"cmh08p3q"}

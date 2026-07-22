@@ -1,0 +1,24 @@
+{"time":"2025-04-15T19:21:38.348684+03:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-04-15T19:21:38.348684+03:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\Timur\\Cheminformatics\\Practice\\CTAB-hydrotropes\\NNs\\Graph NNs\\wandb\\run-20250415_192133-w3b1mu8i\\logs\\debug-core.log"}
+{"time":"2025-04-15T19:21:38.4670063+03:00","level":"INFO","msg":"created new stream","id":"w3b1mu8i"}
+{"time":"2025-04-15T19:21:38.4670063+03:00","level":"INFO","msg":"stream: started","id":"w3b1mu8i"}
+{"time":"2025-04-15T19:21:38.4670063+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"w3b1mu8i"}
+{"time":"2025-04-15T19:21:38.4670063+03:00","level":"INFO","msg":"handler: started","stream_id":"w3b1mu8i"}
+{"time":"2025-04-15T19:21:38.4670063+03:00","level":"INFO","msg":"sender: started","stream_id":"w3b1mu8i"}
+{"time":"2025-04-15T19:21:38.9755194+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-15T19:21:39.3796261+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-15T19:21:39.3922127+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-15T19:24:02.4963907+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-15T19:24:26.1234818+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-15T19:24:26.1547372+03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-15T19:24:26.1547372+03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-15T19:24:26.5053816+03:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2025-04-15T19:24:26.5053816+03:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2025-04-15T19:24:26.5053816+03:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2025-04-15T19:24:27.1668808+03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.4450521,"progress":"869B/869B"},{"desc":"uploading output.log","runtime_seconds":0.4450521,"progress":"2.2KB/2.2KB"}],"total_operations":2}}
+{"time":"2025-04-15T19:24:27.6172796+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-15T19:24:28.8996274+03:00","level":"INFO","msg":"stream: closing","id":"w3b1mu8i"}
+{"time":"2025-04-15T19:24:28.8996274+03:00","level":"INFO","msg":"handler: closed","stream_id":"w3b1mu8i"}
+{"time":"2025-04-15T19:24:28.8996274+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"w3b1mu8i"}
+{"time":"2025-04-15T19:24:28.8996274+03:00","level":"INFO","msg":"sender: closed","stream_id":"w3b1mu8i"}
+{"time":"2025-04-15T19:24:28.8996274+03:00","level":"INFO","msg":"stream: closed","id":"w3b1mu8i"}

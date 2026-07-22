@@ -1,0 +1,20 @@
+{"time":"2025-04-21T21:53:42.4808322+03:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-04-21T21:53:42.4808322+03:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\Timur\\Cheminformatics\\Practice\\CTAB-hydrotropes\\NNs\\Graph NNs\\wandb\\run-20250421_215339-l36tv81d\\logs\\debug-core.log"}
+{"time":"2025-04-21T21:53:42.5979939+03:00","level":"INFO","msg":"created new stream","id":"l36tv81d"}
+{"time":"2025-04-21T21:53:42.5979939+03:00","level":"INFO","msg":"stream: started","id":"l36tv81d"}
+{"time":"2025-04-21T21:53:42.5979939+03:00","level":"INFO","msg":"handler: started","stream_id":"l36tv81d"}
+{"time":"2025-04-21T21:53:42.5979939+03:00","level":"INFO","msg":"sender: started","stream_id":"l36tv81d"}
+{"time":"2025-04-21T21:53:42.5985063+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"l36tv81d"}
+{"time":"2025-04-21T21:53:42.8433965+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-21T21:59:20.1059778+03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-21T21:59:20.1069696+03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-21T21:59:20.6058882+03:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2025-04-21T21:59:20.6058882+03:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2025-04-21T21:59:20.6058882+03:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2025-04-21T21:59:21.1165502+03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.3086499,"progress":"907B/907B"},{"desc":"uploading output.log","runtime_seconds":0.3086499,"progress":"7.4KB/7.4KB"}],"total_operations":2}}
+{"time":"2025-04-21T21:59:21.6963598+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-21T21:59:22.9360519+03:00","level":"INFO","msg":"stream: closing","id":"l36tv81d"}
+{"time":"2025-04-21T21:59:22.9360519+03:00","level":"INFO","msg":"handler: closed","stream_id":"l36tv81d"}
+{"time":"2025-04-21T21:59:22.9360519+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"l36tv81d"}
+{"time":"2025-04-21T21:59:22.9370487+03:00","level":"INFO","msg":"sender: closed","stream_id":"l36tv81d"}
+{"time":"2025-04-21T21:59:22.9370487+03:00","level":"INFO","msg":"stream: closed","id":"l36tv81d"}

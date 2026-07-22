@@ -1,0 +1,242 @@
+2025-04-15 20:31:49,944 INFO    MainThread:8072 [wandb_setup.py:_flush():79] Current SDK version is 0.18.7
+2025-04-15 20:31:49,944 INFO    MainThread:8072 [wandb_setup.py:_flush():79] Configure stats pid to 8072
+2025-04-15 20:31:49,944 INFO    MainThread:8072 [wandb_setup.py:_flush():79] Loading settings from C:\Users\Timur\.config\wandb\settings
+2025-04-15 20:31:49,944 INFO    MainThread:8072 [wandb_setup.py:_flush():79] Loading settings from C:\Users\Timur\Cheminformatics\Practice\CTAB-hydrotropes\NNs\Graph NNs\wandb\settings
+2025-04-15 20:31:49,944 INFO    MainThread:8072 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2025-04-15 20:31:49,944 INFO    MainThread:8072 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2025-04-15 20:31:49,945 INFO    MainThread:8072 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2025-04-15 20:31:49,945 INFO    MainThread:8072 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2025-04-15 20:31:49,945 INFO    MainThread:8072 [wandb_setup.py:_flush():79] Applying login settings: {}
+2025-04-15 20:31:49,945 INFO    MainThread:8072 [wandb_init.py:_log_setup():533] Logging user logs to C:\Users\Timur\Cheminformatics\Practice\CTAB-hydrotropes\NNs\Graph NNs\wandb\run-20250415_203149-2xah6d2e\logs\debug.log
+2025-04-15 20:31:49,946 INFO    MainThread:8072 [wandb_init.py:_log_setup():534] Logging internal logs to C:\Users\Timur\Cheminformatics\Practice\CTAB-hydrotropes\NNs\Graph NNs\wandb\run-20250415_203149-2xah6d2e\logs\debug-internal.log
+2025-04-15 20:31:49,946 INFO    MainThread:8072 [wandb_init.py:_jupyter_setup():479] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000021CFFABE550>
+2025-04-15 20:31:49,946 INFO    MainThread:8072 [wandb_init.py:init():619] calling init triggers
+2025-04-15 20:31:49,946 INFO    MainThread:8072 [wandb_init.py:init():626] wandb.init called with sweep_config: {}
+config: {'architecture': 'GraphConv(17 ->500)  -> CELU -> GraphConv(500 -> 500) -> CELU  -> global_max_pool -> Linear(500 -> 2)', 'lr': 0.001, 'n_epochs': 60}
+2025-04-15 20:31:49,946 INFO    MainThread:8072 [wandb_init.py:init():644] re-initializing run, found existing run on stack: a9cllxog
+2025-04-15 20:31:49,948 INFO    MainThread:8072 [wandb_run.py:_finish():2155] finishing run timyun/CTAB-hydrotopes-graph_NN/a9cllxog
+2025-04-15 20:31:49,949 INFO    MainThread:8072 [wandb_run.py:_atexit_cleanup():2420] got exitcode: 0
+2025-04-15 20:31:49,949 INFO    MainThread:8072 [wandb_run.py:_restore():2402] restore
+2025-04-15 20:31:49,950 INFO    MainThread:8072 [wandb_run.py:_restore():2408] restore done
+2025-04-15 20:31:53,651 INFO    MainThread:8072 [wandb_run.py:_footer_history_summary_info():3960] rendering history
+2025-04-15 20:31:53,655 INFO    MainThread:8072 [wandb_run.py:_footer_history_summary_info():3992] rendering summary
+2025-04-15 20:31:53,671 INFO    MainThread:8072 [wandb_run.py:_footer_sync_info():3921] logging synced files
+2025-04-15 20:31:53,677 INFO    MainThread:8072 [wandb_init.py:init():669] starting backend
+2025-04-15 20:31:53,678 INFO    MainThread:8072 [wandb_init.py:init():673] sending inform_init request
+2025-04-15 20:31:53,682 INFO    MainThread:8072 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2025-04-15 20:31:53,688 INFO    MainThread:8072 [wandb_init.py:init():686] backend started and connected
+2025-04-15 20:31:53,702 INFO    MainThread:8072 [wandb_run.py:_label_probe_notebook():1339] probe notebook
+2025-04-15 20:31:53,702 INFO    MainThread:8072 [wandb_run.py:_label_probe_notebook():1349] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2025-04-15 20:31:53,702 INFO    MainThread:8072 [wandb_init.py:init():781] updated telemetry
+2025-04-15 20:31:53,730 INFO    MainThread:8072 [wandb_init.py:init():814] communicating run to backend with 90.0 second timeout
+2025-04-15 20:31:54,146 INFO    MainThread:8072 [wandb_init.py:init():867] starting run threads in backend
+2025-04-15 20:31:54,550 INFO    MainThread:8072 [wandb_run.py:_console_start():2456] atexit reg
+2025-04-15 20:31:54,550 INFO    MainThread:8072 [wandb_run.py:_redirect():2305] redirect: wrap_raw
+2025-04-15 20:31:54,550 INFO    MainThread:8072 [wandb_run.py:_redirect():2370] Wrapping output streams.
+2025-04-15 20:31:54,550 INFO    MainThread:8072 [wandb_run.py:_redirect():2395] Redirects installed.
+2025-04-15 20:31:54,551 INFO    MainThread:8072 [wandb_init.py:init():911] run started, returning control to user process
+2025-04-15 20:31:54,555 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:31:54,555 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:31:56,464 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:36:40,224 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:36:40,225 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:38:44,947 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:38:44,949 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:38:44,949 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:41:00,670 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:41:00,673 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:41:00,673 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:41:01,617 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:41:01,627 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:41:01,627 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:41:02,203 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:41:02,361 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:41:02,361 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:44:11,926 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:44:11,929 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:44:11,929 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:44:14,775 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:44:14,777 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:44:14,777 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:44:15,977 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:44:15,986 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:44:15,987 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:44:16,416 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:44:16,541 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:44:16,541 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:44:53,459 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:44:53,462 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:44:53,462 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:44:55,313 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:44:55,322 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:44:55,322 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:44:55,771 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:44:55,890 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:44:55,890 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:45:15,074 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:45:15,089 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:45:15,089 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:45:19,235 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:45:19,249 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:45:19,249 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:45:23,129 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:45:23,451 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:45:23,452 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:45:28,866 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:45:28,881 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:45:28,881 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:45:48,780 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:45:48,782 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:45:48,782 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:45:50,441 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:45:50,451 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:45:50,451 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:45:50,907 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:45:51,275 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:45:51,275 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:46:26,818 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:46:26,861 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:46:26,861 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:46:33,907 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:46:33,922 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:46:33,922 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:46:46,641 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:46:46,668 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:46:46,668 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:46:49,987 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:46:50,014 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:46:50,015 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:47:03,026 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:47:03,047 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:47:03,047 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:47:09,626 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:47:09,862 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:47:09,862 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:47:37,294 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:47:37,296 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:47:37,296 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:47:38,769 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:47:38,779 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:47:38,779 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:47:39,172 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:47:39,349 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:47:39,349 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:48:00,707 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:48:00,709 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:48:00,709 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:48:01,370 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:48:01,379 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:48:01,379 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:48:01,762 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:48:01,913 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:48:01,914 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:48:59,528 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:48:59,530 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:48:59,530 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:49:00,337 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:49:00,345 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:49:00,345 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:49:03,612 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:49:03,615 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:49:03,615 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:49:04,130 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:49:04,139 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:49:04,139 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:49:04,528 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:49:04,573 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:49:04,573 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:51:12,173 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:51:12,175 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:51:12,175 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:51:12,720 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:51:12,728 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:51:12,730 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:51:13,930 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:51:14,020 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:51:14,020 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:53:30,166 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:53:30,169 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:53:30,169 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:53:39,333 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:53:39,335 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:53:39,335 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:53:39,817 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:53:39,825 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:53:39,825 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:53:40,298 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:53:40,386 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:53:40,387 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:54:00,844 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:54:00,846 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:54:00,846 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:54:06,099 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:54:06,102 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:54:06,102 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:54:07,401 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:54:07,410 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:54:07,410 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:54:07,978 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:54:08,021 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:54:08,021 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:54:17,381 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:54:17,383 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:54:17,383 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:54:18,768 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:54:18,778 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:54:18,778 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:54:19,137 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:54:19,210 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:54:19,211 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:54:43,814 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:54:43,817 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:54:43,817 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:54:45,201 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:54:45,211 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:54:45,211 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:54:45,595 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:54:45,650 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:54:45,650 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:55:11,492 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:55:11,495 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:55:11,496 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:55:12,417 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:55:12,426 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:55:12,426 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:55:13,538 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:55:13,587 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:55:13,587 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:55:51,998 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:55:52,001 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:55:52,001 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:55:52,577 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:55:52,586 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:55:52,586 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:55:53,699 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:55:53,734 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:55:53,734 INFO    MainThread:8072 [wandb_init.py:_pause_backend():444] pausing backend
+2025-04-15 20:56:27,087 INFO    MainThread:8072 [wandb_init.py:_resume_backend():449] resuming backend
+2025-04-15 20:56:27,111 INFO    MainThread:8072 [wandb_setup.py:_flush():79] Current SDK version is 0.18.7
+2025-04-15 20:56:27,111 INFO    MainThread:8072 [wandb_setup.py:_flush():79] Configure stats pid to 8072
+2025-04-15 20:56:27,111 INFO    MainThread:8072 [wandb_setup.py:_flush():79] Loading settings from C:\Users\Timur\.config\wandb\settings
+2025-04-15 20:56:27,111 INFO    MainThread:8072 [wandb_setup.py:_flush():79] Loading settings from C:\Users\Timur\Cheminformatics\Practice\CTAB-hydrotropes\NNs\Graph NNs\wandb\settings
+2025-04-15 20:56:27,111 INFO    MainThread:8072 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2025-04-15 20:56:27,111 INFO    MainThread:8072 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2025-04-15 20:56:27,112 INFO    MainThread:8072 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2025-04-15 20:56:27,112 INFO    MainThread:8072 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2025-04-15 20:56:27,112 INFO    MainThread:8072 [wandb_setup.py:_flush():79] Applying login settings: {}
+2025-04-15 20:56:27,112 INFO    MainThread:8072 [wandb_init.py:_log_setup():533] Logging user logs to C:\Users\Timur\Cheminformatics\Practice\CTAB-hydrotropes\NNs\Graph NNs\wandb\run-20250415_205627-lf6s1704\logs\debug.log
+2025-04-15 20:56:27,113 INFO    MainThread:8072 [wandb_init.py:_log_setup():534] Logging internal logs to C:\Users\Timur\Cheminformatics\Practice\CTAB-hydrotropes\NNs\Graph NNs\wandb\run-20250415_205627-lf6s1704\logs\debug-internal.log
+2025-04-15 20:56:27,113 INFO    MainThread:8072 [wandb_init.py:init():619] calling init triggers
+2025-04-15 20:56:27,113 INFO    MainThread:8072 [wandb_init.py:init():626] wandb.init called with sweep_config: {}
+config: {'architecture': 'GraphConv(17 ->500)  -> CELU -> GraphConv(500 -> 500) -> CELU  -> EdgePooling(Softmax) -> global_add_pool -> Linear(500 -> 2)', 'lr': 0.001, 'n_epochs': 60}
+2025-04-15 20:56:27,113 INFO    MainThread:8072 [wandb_init.py:init():644] re-initializing run, found existing run on stack: 2xah6d2e
+2025-04-15 20:56:27,115 INFO    MainThread:8072 [wandb_run.py:_finish():2155] finishing run timyun/CTAB-hydrotopes-graph_NN/2xah6d2e
+2025-04-15 20:56:27,116 INFO    MainThread:8072 [jupyter.py:save_history():459] not saving jupyter history
+2025-04-15 20:56:27,116 INFO    MainThread:8072 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2025-04-15 20:56:27,116 INFO    MainThread:8072 [wandb_init.py:_jupyter_teardown():461] cleaning up jupyter logic
+2025-04-15 20:56:27,116 INFO    MainThread:8072 [wandb_run.py:_atexit_cleanup():2420] got exitcode: 0
+2025-04-15 20:56:27,116 INFO    MainThread:8072 [wandb_run.py:_restore():2402] restore
+2025-04-15 20:56:27,117 INFO    MainThread:8072 [wandb_run.py:_restore():2408] restore done
+2025-04-15 20:56:30,818 INFO    MainThread:8072 [wandb_run.py:_footer_history_summary_info():3960] rendering history
+2025-04-15 20:56:30,820 INFO    MainThread:8072 [wandb_run.py:_footer_history_summary_info():3992] rendering summary
+2025-04-15 20:56:30,833 INFO    MainThread:8072 [wandb_run.py:_footer_sync_info():3921] logging synced files
