@@ -26,8 +26,8 @@ with open('trained_model_clf.pickle', 'rb') as inp:
 with open('trained_model_reg.pickle', 'rb') as inp:
     trained_model_reg = pickle.load(inp)
 
-with open('features_to_drop_Standard.pickle', 'rb') as inp:
-    features_to_drop = pickle.load(inp)
+with open('X_standard.pickle', 'rb') as inp:
+    X_standard = pickle.load(inp)
 
 #AllNecessaryInputs
 CTAB_conc = int(input('Enter CTAB concentration here'))
@@ -36,35 +36,39 @@ additive_conentrations = input('Enter additive concentraions in mM like 50,80,60
 additive_conentrations = [int(x) for x in additive_conentrations.split(',')]
 temp = int(input('Enter the temperature in Celcius degrees '))
 SMILES = input('Enter the SMILES of the additive ')
-add = embed_optimize(SMILES)
+probs_array = np.zeros((5, len(additive_conentrations)))
 
-#Creating descriptors
-fp = AllChem.GetMorganFingerprintAsBitVect(add, radius = 3)
-fp_df = pd.DataFrame(np.array(fp).reshape(1,-1), columns = ['fp{}'.format(i) for i in range(2048)])
-#descriptors calculation
-calc_2D = RDKitDescriptors2D()
-calc_3D = RDKitDescriptors3D()
-with dm.without_rdkit_log():
-    feats_2D = calc_2D(add)
-    feats_3D = calc_3D(add)
+for i in range(5):
+    add = embed_optimize(SMILES)
+    fp = AllChem.GetMorganFingerprintAsBitVect(add, radius = 3)
+    fp_df = pd.DataFrame(np.array(fp).reshape(1,-1), columns = ['fp{}'.format(i) for i in range(2048)])
+    #descriptors calculation
+    calc_2D = RDKitDescriptors2D()
+    calc_3D = RDKitDescriptors3D()
+    with dm.without_rdkit_log():
+        feats_2D = calc_2D(add)
+        feats_3D = calc_3D(add)
+    
+    features = pd.DataFrame(np.concatenate([feats_2D, feats_3D]).reshape(1,-1), columns=calc_2D.columns + calc_3D.columns)
+    features = pd.concat([fp_df, features], axis = 1)
+    
+    dic = {'CTAB concentration (mM)':[], 'Additive concentration':[], 'CTAB/additive':[], 'Temperature':[] }
+    for conc in additive_conentrations:
+        dic['CTAB concentration (mM)'].append(CTAB_conc)
+        dic['Additive concentration'].append(conc)
+        dic['CTAB/additive'].append(CTAB_conc/conc)
+        dic['Temperature'].append(temp)
+    df = pd.DataFrame(dic)
+    X = pd.concat([df, pd.concat([features]*len(additive_conentrations), ignore_index= True)], axis = 1)
+    X.drop(columns=['Alerts', 'AvgIpc', 'SPS'], inplace=True)
+    X = X[X_standard.columns]
+    probs = trained_model_clf.predict_proba(X)
+    probs_array[i,:] = probs[:,1]
+    
 
-features = pd.DataFrame(np.concatenate([feats_2D, feats_3D]).reshape(1,-1), columns=calc_2D.columns + calc_3D.columns)
-features = pd.concat([fp_df, features], axis = 1)
-
-dic = {'CTAB concentration (mM)':[], 'Additive concentration':[], 'CTAB/additive':[], 'Temperature':[] }
-for conc in additive_conentrations:
-    dic['CTAB concentration (mM)'].append(CTAB_conc)
-    dic['Additive concentration'].append(conc)
-    dic['CTAB/additive'].append(CTAB_conc/conc)
-    dic['Temperature'].append(temp)
-df = pd.DataFrame(dic)
-X = pd.concat([df, pd.concat([features]*len(additive_conentrations), ignore_index= True)], axis = 1)
-X.drop(columns=['Alerts'], inplace=True)
-X = X.drop(columns = features_to_drop)
-
-classes = trained_model_clf.predict(X)
-probs = trained_model_clf.predict_proba(X)
-viscosity = 1000*np.exp(trained_model_reg.predict(X))
+probs = np.mean(probs_array,0) 
+classes = probs > 0.5
+viscosity = 10**(trained_model_reg.predict(X))
 
 print(classes)
 print(probs)
