@@ -11,7 +11,7 @@ rdkit == 2024.03.5 scikit-learn==1.5.1 hyperopt==0.2.7 molfeat==0.10.1 molfeat-p
 This folder contains following files:
 
 
-1. **"Data.xslx"** - raw data, collected from different articles, **without  references**. Contains SMILES of the additive, temperature, concentraion of SMILES and addtive, ratio of CTAB and additive, rheological state (Is_gel column), viscosity, reference. Ionic form is accounted in SMILES of the additive  
+1. **"Data.xslx"** - raw data, collected from different articles, **without  references**. Contains SMILES of the additive, temperature, concentraion of CTAB and addtive, ratio of CTAB and additive, rheological state (Is_gel column), viscosity, reference. Ionic form is accounted in SMILES of the additive  
 
 2. **"1.Data processing.ipynb"** - here вataset is processed and transormed into descriptor sets:
     - Full feature sets: *X_standard.pickle* and *X_padel.pickle* (Pandas)
