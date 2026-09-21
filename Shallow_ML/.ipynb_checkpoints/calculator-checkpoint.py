@@ -23,8 +23,6 @@ def embed_optimize(smi):
 with open('trained_model_clf.pickle', 'rb') as inp:
     trained_model_clf = pickle.load(inp)
 
-with open('trained_model_reg.pickle', 'rb') as inp:
-    trained_model_reg = pickle.load(inp)
 
 with open('X_standard.pickle', 'rb') as inp:
     X_standard = pickle.load(inp)
@@ -68,9 +66,6 @@ for i in range(5):
 
 probs = np.mean(probs_array,0) 
 classes = probs > 0.5
-viscosity = 10**(trained_model_reg.predict(X))
 
 print(classes)
 print(probs)
-print(viscosity)
-    
